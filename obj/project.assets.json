@@ -1,0 +1,466 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "EMGU.CV/4.1.0.3408": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "[5.1.7]"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/EMGU.CV.targets": {}
+        }
+      },
+      "Tesseract/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tesseract.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Tesseract.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win": {
+      "EMGU.CV/4.1.0.3408": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "[5.1.7]"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/EMGU.CV.targets": {}
+        }
+      },
+      "Tesseract/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tesseract.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Tesseract.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x64": {
+      "EMGU.CV/4.1.0.3408": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "[5.1.7]"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/EMGU.CV.targets": {}
+        }
+      },
+      "Tesseract/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tesseract.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Tesseract.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x86": {
+      "EMGU.CV/4.1.0.3408": {
+        "type": "package",
+        "dependencies": {
+          "ZedGraph": "[5.1.7]"
+        },
+        "compile": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Emgu.CV.UI.dll": {},
+          "lib/net35/Emgu.CV.World.dll": {}
+        },
+        "build": {
+          "build/EMGU.CV.targets": {}
+        }
+      },
+      "Tesseract/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tesseract.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Tesseract.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resource": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EMGU.CV/4.1.0.3408": {
+      "sha512": "prcN4ILMwYyozHB+hlwMtWMW+0ELQYTZyqOsQMh1ee0jYy2/X2klLEZPicWZ0vRNzuXbb/c/R31Rib/L/7QjIA==",
+      "type": "package",
+      "path": "emgu.cv/4.1.0.3408",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "build/EMGU.CV.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/cvextern.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/opencv_ffmpeg410_64.dll",
+        "build/x64/vcruntime140.dll",
+        "build/x86/concrt140.dll",
+        "build/x86/cvextern.dll",
+        "build/x86/msvcp140.dll",
+        "build/x86/opencv_ffmpeg410.dll",
+        "build/x86/vcruntime140.dll",
+        "emgu.cv.4.1.0.3408.nupkg.sha512",
+        "emgu.cv.nuspec",
+        "lib/net35/Emgu.CV.UI.XML",
+        "lib/net35/Emgu.CV.UI.dll",
+        "lib/net35/Emgu.CV.World.dll",
+        "lib/net35/Emgu.CV.World.xml"
+      ]
+    },
+    "Tesseract/3.0.2": {
+      "sha512": "+w8eXBOsNsmnkcbC4kH5w6CoS0Xlw1CDAtHXk71vxk+kkZxnF86P4xvprMbqnq3MsY72w+Td9AZwQaH3uBF5Rg==",
+      "type": "package",
+      "path": "tesseract/3.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/x64/liblept172.dll",
+        "content/x64/libtesseract304.dll",
+        "content/x86/liblept172.dll",
+        "content/x86/libtesseract304.dll",
+        "lib/net20/Tesseract.dll",
+        "lib/net20/Tesseract.xml",
+        "lib/net35/Tesseract.dll",
+        "lib/net35/Tesseract.xml",
+        "lib/net40-client/Tesseract.dll",
+        "lib/net40-client/Tesseract.xml",
+        "lib/net40/Tesseract.dll",
+        "lib/net40/Tesseract.xml",
+        "lib/net45/Tesseract.dll",
+        "lib/net45/Tesseract.xml",
+        "lib/net451/Tesseract.dll",
+        "lib/net451/Tesseract.xml",
+        "tesseract.3.0.2.nupkg.sha512",
+        "tesseract.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "ZedGraph/5.1.7": {
+      "sha512": "TcZaInxUjYMJDWIaYvs/CgpssfVJQMqiry8GPP70klyheP4tYSQXFWi5HYwJvqao+epeUu3bsk3yDb3Nf/hVWw==",
+      "type": "package",
+      "path": "zedgraph/5.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/License-LGPL.txt",
+        "lib/net35-Client/ZedGraph.XML",
+        "lib/net35-Client/ZedGraph.dll",
+        "lib/net35-Client/de/ZedGraph.resources.dll",
+        "lib/net35-Client/es/ZedGraph.resources.dll",
+        "lib/net35-Client/fr/ZedGraph.resources.dll",
+        "lib/net35-Client/hu/ZedGraph.resources.dll",
+        "lib/net35-Client/it/ZedGraph.resources.dll",
+        "lib/net35-Client/ja/ZedGraph.resources.dll",
+        "lib/net35-Client/pt/ZedGraph.resources.dll",
+        "lib/net35-Client/ru/ZedGraph.resources.dll",
+        "lib/net35-Client/sk/ZedGraph.resources.dll",
+        "lib/net35-Client/sv/ZedGraph.resources.dll",
+        "lib/net35-Client/tr/ZedGraph.resources.dll",
+        "lib/net35-Client/zh-cn/ZedGraph.resources.dll",
+        "lib/net35-Client/zh-tw/ZedGraph.resources.dll",
+        "zedgraph.5.1.7.nupkg.sha512",
+        "zedgraph.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "Emgu.CV >= 4.1.0.3408",
+      "Tesseract >= 3.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dokis\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj",
+      "projectName": "LicensePlateRecognition_v0",
+      "projectPath": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj",
+      "packagesPath": "C:\\Users\\dokis\\.nuget\\packages\\",
+      "outputPath": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\dokis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "dependencies": {
+          "Emgu.CV": {
+            "target": "Package",
+            "version": "[4.1.0.3408, )"
+          },
+          "Tesseract": {
+            "target": "Package",
+            "version": "[3.0.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

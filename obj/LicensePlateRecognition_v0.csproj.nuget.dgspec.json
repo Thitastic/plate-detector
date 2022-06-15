@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj": {}
+  },
+  "projects": {
+    "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj",
+        "projectName": "LicensePlateRecognition_v0",
+        "projectPath": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj",
+        "packagesPath": "C:\\Users\\dokis\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\dokis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.1.0.3408, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

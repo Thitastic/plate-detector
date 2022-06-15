@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "d9nqRp0AYQozsGoqFI5pUD4iDZT/O/1bS4TgPVekrDXMZSt4voGMfeZvxqYH1UQ2lnwDd4JaYXmbJ9/I3tr6FA==",
+  "success": true,
+  "projectFilePath": "D:\\CodeCSharp\\LicensePlateRecognition_v0\\LicensePlateRecognition_v0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dokis\\.nuget\\packages\\emgu.cv\\4.1.0.3408\\emgu.cv.4.1.0.3408.nupkg.sha512",
+    "C:\\Users\\dokis\\.nuget\\packages\\tesseract\\3.0.2\\tesseract.3.0.2.nupkg.sha512",
+    "C:\\Users\\dokis\\.nuget\\packages\\zedgraph\\5.1.7\\zedgraph.5.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
